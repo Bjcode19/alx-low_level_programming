@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+
 /**
  * new_dog - new dog to be created
  * @name: name of the new dog
@@ -7,6 +8,7 @@
  * @owner: owner of the new dog
  * Return: pointer to the new dog
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	unsigned int n, o, i;
